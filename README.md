@@ -1,4 +1,4 @@
-![](https://github.com/dimitreOliveira/competitionTemplate/blob/master/Assets/banner.png)
+![](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/blob/master/Assets/banner.png)
 
 ## About the repository
 {Competition abouts}
