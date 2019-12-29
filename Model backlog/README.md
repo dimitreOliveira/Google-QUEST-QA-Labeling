@@ -20,3 +20,25 @@
 |7 - GoogleQ&A - USE-Large Elu|0.465|0.382|0.341|???|
 |8 - GoogleQ&A - USE-Large Swish|0.464|0.384|0.344|???|
 |9 - GoogleQ&A - USE-Large ML split|0.484|0.384|0.355|???|
+|10-GoogleQ&A Train-USE|0.495|0.372|0.335|???|
+|11-GoogleQ&A Train-USE|0.467|0.317|0.298|???|
+|12-GoogleQ&A Train-USE trim|0.493|0.373|0.335|???|
+|13-GoogleQ&A Train-USE lower|0.493|0.373|000|???|
+|14-GoogleQ&A Train-USE ?!|0.493|0.373|0.335|???|
+|15-GoogleQ&A Train-USE selu|0.451|0.360|0.318|???|
+|16-GoogleQ&A Train-USE digits|0.493|0.373|0.336|???|
+|17-GoogleQ&A Train-USE punctuation|0.493|0.368|0.327|???|
+|18-GoogleQ&A Train-USE alphanumeric|0.495|0.374|0.332|???|
+|19-GoogleQ&A Train-USE misspelling|0.492|0.373|0.334|???|
+|20-GoogleQ&A Train-USE contraction|0.493|0.373|0.334|???|
+|21-GoogleQ&A Train-USE stopwords|0.482|0.342|0.298|???|
+|22-GoogleQ&A Train-USE text pre-process|0.485|0.371|0.331|???|
+|23-GoogleQ&A Train-USE text pre-process2|0.492|0.373|0.332|???|
+|24-GoogleQ&A Train-USE-QA text pre-process2|0.487|0.380|0.355|???|
+|25-GoogleQ&A Train-USE 2Dense|0.479|0.354|0.311|???|
+|26-GoogleQ&A Train-USE 2Dense2|0.508|0.372|0.323|???|
+|27-GoogleQ&A Train-USE Embedding Dense|0.491|0.375|0.324|???|
+|28-GoogleQ&A Train-USE Embedding Dropout|0.490|0.370|0.323|???|
+|29-GoogleQ&A Train-USE Embedding DropoutDense|0.482|0.378|0.327|???|
+|30-GoogleQ&A Train-USE Embedding SubModules|0.462|0.366|0.317|???|
+|31-GoogleQ&A Train-USE Multi-Sample Dropout|0.442|0.365|0.319|???|
