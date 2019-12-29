@@ -42,3 +42,12 @@
 |29-GoogleQ&A Train-USE Embedding DropoutDense|0.482|0.378|0.327|???|
 |30-GoogleQ&A Train-USE Embedding SubModules|0.462|0.366|0.317|???|
 |31-GoogleQ&A Train-USE Multi-Sample Dropout|0.442|0.365|0.319|???|
+|32-GoogleQ&A Train-USE Multi-Sample Dropout2|0.463|0.365|0.319|???|
+|33-GoogleQ&A Train-USE|0.279|0.265|0.242|???|
+|34-GoogleQ&A Train-USE early stopping|0.478|0.370|0.331|???|
+|35-GoogleQ&A Train-USE category|0.479|0.372|0.331|???|
+|36-GoogleQ&A Train-USE category|0.472|0.368|0.333|???|
+|37-GoogleQ&A Train-USE lecun_normal|0.478|0.369|0.336|???|
+|38-GoogleQ&A Train-USE he_normal|0.462|0.365|0.334|???|
+|39-GoogleQ&A Train-USE glorot_uniform|0.474|0.368|0.334|???|
+|40-GoogleQ&A Train-USE glorot_uniform2|0.490|0.372|0.335|???|
