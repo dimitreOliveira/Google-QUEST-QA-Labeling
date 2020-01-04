@@ -51,3 +51,18 @@
 |38-GoogleQ&A Train-USE he_normal|0.462|0.365|0.334|???|
 |39-GoogleQ&A Train-USE glorot_uniform|0.474|0.368|0.334|???|
 |40-GoogleQ&A Train-USE glorot_uniform2|0.490|0.372|0.335|???|
+|41-GoogleQ&A Train-USE lecun_normal2|0.492|0.374|0.331|???|
+|42-GoogleQ&A Train-USE text features|0.450|0.360|0.322|???|
+|43-GoogleQ&A Train-USE text features scaled|0.512|0.373|0.325|???|
+|44-GoogleQ&A Train-USE misspelings count|0.489|0.371|0.331|???|
+|45-GoogleQ&A Train-USE unique words|0.490|0.371|0.331|???|
+|46-GoogleQ&A Train-USE TF-IDF bigram|0.558|0.363|0.311|???|
+|47-GoogleQ&A Train-USE TF-IDF trigram|0.558|0.361|0.311|???|
+|48-GoogleQ&A Train-USE skip|0.561|0.361|0.317|???|
+|49-GoogleQ&A Train-USE-QA skip|0.555|0.368|0.335|???|
+|50-GoogleQ&A Train-USE skip concat|0.470|0.363|0.321|???|
+|51-GoogleQ&A Train-USE skip add|0.447|0.347|0.308|???|
+|52-GoogleQ&A Train-USE Add|0.420|0.351|0.326|???|
+|53-GoogleQ&A Train-USE GlobalAvg|0.476|0.363|0.320|???|
+|54-GoogleQ&A Train-USE LSTM|0.460|0.365|0.321|???|
+|55-GoogleQ&A Train-USE GRU|0.460|0.361|0.321|???|
