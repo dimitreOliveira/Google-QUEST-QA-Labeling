@@ -458,16 +458,17 @@ class WarmUpLearningRateScheduler(Callback):
 
     def on_batch_end(self, batch, logs=None):
         self.batch_count = self.batch_count + 1
-        lr = K.get_value(self.model.optimizer.lr)
+        lr = tf.keras.backend.get_value(self.model.optimizer.lr)
         self.learning_rates.append(lr)
 
     def on_batch_begin(self, batch, logs=None):
         if self.batch_count <= self.warmup_batches:
             lr = self.batch_count * self.init_lr / self.warmup_batches
-            K.set_value(self.model.optimizer.lr, lr)
+            tf.keras.backend.set_value(self.model.optimizer.lr, lr)
             if self.verbose > 0:
                 print('\nBatch %02d: WarmUpLearningRateScheduler setting learning rate to %s.' % (self.batch_count + 1, lr))
 
+                
 class CyclicLR(Callback):
     """This callback implements a cyclical learning rate policy (CLR).
     The method cycles the learning rate between two boundaries with
