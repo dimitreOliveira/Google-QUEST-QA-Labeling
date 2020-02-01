@@ -28,9 +28,10 @@ def color_map(val):
 
 
 def seed_everything(seed=0):
-    os.environ['PYTHONHASHSEED'] = str(seed)
     np.random.seed(seed)
     tf.random.set_seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    os.environ['TF_DETERMINISTIC_OPS'] = '1'
     
 
 def plot_metrics(history, metric_list=['loss', 'dice_coef']):
