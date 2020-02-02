@@ -66,3 +66,33 @@
 |53-GoogleQ&A Train-USE GlobalAvg|0.476|0.363|0.320|???|
 |54-GoogleQ&A Train-USE LSTM|0.460|0.365|0.321|???|
 |55-GoogleQ&A Train-USE GRU|0.460|0.361|0.321|???|
+|56-GoogleQ&A Train-USE CNN|0.476|0.366|0.324|???|
+|57-GoogleQ&A Train-USE LSTM|0.479|0.373|0.330|???|
+|58-GoogleQ&A Train-USE LSTM+GlobalAvg|0.480|0.373|0.330|???|
+|59-GoogleQ&A Train-USE 2xLSTM|0.470|0.371|0.329|???|
+|60-GoogleQ&A Train-USE BiLSTM|0.472|0.370|0.330|???|
+|61-GoogleQ&A Train-USE+LSTM|0.517|0.314|0.264|???|
+|62-GoogleQ&A Train-USE+LSTM v2|0.52|0.318|0.268|???|
+|63-GoogleQ&A Train-USE+nnlm128|0.47|0.367|0.328|???|
+|64-GoogleQ&A Train-USE+WikiWords500|0.436|0.358|0.323|???|
+|65-GoogleQ&A Train-USE-QA+nnlm128|0.48|0.38|0.347|???|
+|66-GoogleQ&A Train-USE+Glove GlobalAVG|0.476|0.377|0.332|???|
+|67-GoogleQ&A Train-USE+Glove GlobalAVG Uncased|0.477|0.378|0.332|???|
+|68-GoogleQ&A Train-USE+Glove LSTM Uncased|0.483|0.353|0.321|???|
+|69-GoogleQ&A Train-USE+Glove LSTM Uncased|0.503|0.38|0.331|???|
+|70-GoogleQ&A Train-USE+Glove LSTM-dense uncased|0.476|0.37|000|???|
+|71-GoogleQ&A Train-Glove GlobalAVG Uncased|0.379|0.333|0.292|???|
+|72-GoogleQ&A Train-Glove LSTM Uncased|0.418|0.349|0.304|???|
+|73-GoogleQ&A Train-Glove 2LSTM Uncased|0.426|0.317|0.270|???|
+|74-GoogleQ&A Train-Glove 2LSTM MAX_FEAT=20000|0.433|0.318|0.277|???|
+|75-GoogleQ&A Train-Glove 2LSTM MAX_LEN=200|0.429|0.32|0.275|???|
+|76-GoogleQ&A Train-Glove 2LSTM AVG|0.404|0.341|0.302|???|
+|77-GoogleQ&A Train-Glove 2LSTM Dense|0.357|0.3|0.274|???|
+|78-GoogleQ&A Train-Glove 2LSTM AVGv2|0.407|0.341|0.296|???|
+|79-GoogleQ&A Train-Glove BiLSTM|0.428|0.332|0.292|???|
+|80-GoogleQ&A Train-Glove LSTM MAX_FEAT 3k|0.4|0.342|0.302|???|
+|81-GoogleQ&A Train-Glove LSTM MAX_FEAT 100k|0.42|0.351|0.308|???|
+|82-GoogleQ&A Train-Glove LSTM MAX_LEN 300|0.412|0.35|0.311|???|
+|83-GoogleQ&A Train-Glove LSTM 10paragraphs|0.449|0.334|0.298|???|
+|84-GoogleQ&A Train-Glove LSTM 10paragraphs v2|0.469|0.324|0.280|???|
+|85-GoogleQ&A Train-Glove LSTM|0.457|0.348|0.308|???|
