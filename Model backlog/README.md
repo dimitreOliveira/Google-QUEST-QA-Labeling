@@ -1,6 +1,6 @@
 ## Model backlog (list of the developed model and it's score)
 - **Train** and **validation** are the splits using the train data from the competition.
-- The competition metric is **{metric}**.
+- The competition metric is **Mean Columnwise Spearman's r (rank correlation coefficient)**.
 - **Runtime** is the time in seconds that the kernel took to finish.
 - **Pb Leaderboard** is the Public Leaderboard score.
 - **Pv Leaderboard** is the Private Leaderboard score.
@@ -80,7 +80,7 @@
 |67-GoogleQ&A Train-USE+Glove GlobalAVG Uncased|0.477|0.378|0.332|???|
 |68-GoogleQ&A Train-USE+Glove LSTM Uncased|0.483|0.353|0.321|???|
 |69-GoogleQ&A Train-USE+Glove LSTM Uncased|0.503|0.38|0.331|???|
-|70-GoogleQ&A Train-USE+Glove LSTM-dense uncased|0.476|0.37|000|???|
+|70-GoogleQ&A Train-USE+Glove LSTM-dense uncased|0.476|0.37|???|???|
 |71-GoogleQ&A Train-Glove GlobalAVG Uncased|0.379|0.333|0.292|???|
 |72-GoogleQ&A Train-Glove LSTM Uncased|0.418|0.349|0.304|???|
 |73-GoogleQ&A Train-Glove 2LSTM Uncased|0.426|0.317|0.270|???|
@@ -96,3 +96,48 @@
 |83-GoogleQ&A Train-Glove LSTM 10paragraphs|0.449|0.334|0.298|???|
 |84-GoogleQ&A Train-Glove LSTM 10paragraphs v2|0.469|0.324|0.280|???|
 |85-GoogleQ&A Train-Glove LSTM|0.457|0.348|0.308|???|
+|86-GoogleQ&A Train-Glove Category&host embedding|0.434|0.34|0.287|???|
+|87-GoogleQ&A Train-Glove text features|0.416|0.348|0.287|???|
+|88-GoogleQ&A Train-Glove meta features|0.44|0.349|0.308|???|
+|89-GoogleQ&A Train-Glove RAdam|0.403|0.334|0.289|???|
+|90-GoogleQ&A Train-Glove SGD One Cycle|0.365|0.328|0.284|???|
+|91-GoogleQ&A Train-Glove SGD Cosine|0.367|0.332|0.294|???|
+|92-GoogleQ&A Train-Glove Adam Cosine|0.443|0.328|0.278|???|
+|93-GoogleQ&A Train-Glove SGDR|0.364|0.329|0.287|???|
+|94-GoogleQ&A Train-Glove SGD Cyclical_triangular2|0.347|0.318|0.277|???|
+|95-GoogleQ&A Train-Bert-base clean|0.651|0.389|0.354|???|
+|96-GoogleQ&A Train-Bert-base contractions|0.65|0.385|0.357|???|
+|97-GoogleQ&A Train-Bert-base misspellings|0.648|0.384|0.352|???|
+|98-GoogleQ&A Train-Bert-base|0.508|0.387|0.339|???|
+|99-GoogleQ&A Train-Bert-base RAdam|0.461|0.373|0.327|???|
+|100-GoogleQ&A Train-Bert-base RAdam2|0.468|0.376|0.329|???|
+|101-GoogleQ&A Train-Bert-base RAdam3|0.468|0.377|0.329|???|
+|102-GoogleQ&A Train-Bert-base Adam Cosine|0.459|0.372|0.323|???|
+|103-GoogleQ&A Train-Bert-base clean|0.508|0.387|0.341|???|
+|104-GoogleQ&A Train-Bert-base raw|0.51|0.39|0.344|???|
+|105-GoogleQ&A Train-Bert-base pooled_output|0.496|0.378|0.355|???|
+|106-GoogleQ&A Train-Bert-base spatial_dropout|0.512|0.392|0.345|???|
+|107-GoogleQ&A Train-USE-QA text pre-process2 3Fold|0.498|0.376|0.356|???|
+|108-GoogleQ&A Train-USE-QA text pre-process2 5Fold|000|000|0.356|???|
+|109-GoogleQ&A Train-Bert-base no dropout|0.504|0.38|0.350|???|
+|110-GoogleQ&A Train-Bert_base_uncased no_title|0.488|0.359|0.317|???|
+|111-GoogleQ&A Train-Bert-base no dropout v2|0.505|0.381|0.351|???|
+|112-GoogleQ&A Train-Bert_base_uncased seq slices|0.502|0.379|0.338|???|
+|113-GoogleQ&A Train-Bert_base_uncased|0.452|0.375|0.331|???|
+|114-GoogleQ&A Train-Bert_base_uncased seq slicesV2|0.498|0.391|0.355|???|
+|115-GoogleQ&A Train-Bert_base_uncased Quest/Ans|0.496|0.391|0.347|???|
+|116-GoogleQ&A Train-Bert_base_uncased-3F LRWarmup1|0.506|0.388|0.375|0.353|
+|117-GoogleQ&A Train-Bert_base_uncased-3F LRWarmup2|0.514|0.391|0.375|0.354|
+|118-GoogleQ&A Inf-3Fold-Bert_base_unc Raw|000|000|000|000|
+|119-GoogleQ&A Train-3Fold-Bert_base_unc category|0.514|0.381|0.365|0.344|
+|120-GoogleQ&A Train-3Fold-Bert_base_unc host|0.545|0.382|0.362|0.344|
+|121-GoogleQ&A Train-3Fold-Bert_base_unc categoryV2|0.373|0.343|0.328|0.307|
+|122-GoogleQ&A Train-3Fold-Bert_base_unc categoryV3|0.433|0.373|0.352|0.332|
+|123-GoogleQ&A Train-3Fold-Bert_base_unc categoryV4|0.460|0.379|0.356|0.337|
+|124-GoogleQ&A Train-3Fold-Bert_base_unc head/tail|0.509|0.389|0.373|0.352|
+|125-GoogleQ&A Train-2Fold-Bert_base_unc categoryV5|0.465|0.381|0.353|0.329|
+|126-GoogleQ&A Train-1Fold-Bert_base_unc Quest/Ans|0.503|0.429|0.377|0.350|
+|127-GoogleQ&A Train-1Fold-Bert_base_unc Quest/Ans2|0.499|0.402|0.371|0.346|
+|128-GoogleQ&A Train-1Fold-Bert_base_unc Quest/Ans3|0.486|0.401|0.367|0.344|
+|129-GoogleQ&A Train-3Fold-Bert_base_unc Question Answer|000|000|0.379|0.359|
+|130-GoogleQ&A Train-3Fold-Bert_base_unc Quest/Ans3|0.487|0.397|0.364|0.383|
