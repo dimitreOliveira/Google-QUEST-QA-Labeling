@@ -141,3 +141,17 @@
 |128-GoogleQ&A Train-1Fold-Bert_base_unc Quest/Ans3|0.486|0.401|0.367|0.344|
 |129-GoogleQ&A Train-3Fold-Bert_base_unc Question Answer|000|000|0.379|0.359|
 |130-GoogleQ&A Train-3Fold-Bert_base_unc Quest/Ans3|0.487|0.397|0.364|0.383|
+|131-GoogleQ&A Inf-5Fold-BERT_base_unc best_last|000|000|0.388|0.367|
+|132-GoogleQ&A Train-3Fold-Bert_base_unc Q/A3 1e5|0.516|0.392|0.378|0.357|
+|133-GoogleQ&A Train-3Fold-Bert_base_unc Q/A3 5e5|0.486|0.390|0.382|0.362|
+|134-GoogleQ&A Inf-5Fold-Bert_base_unc raw last_ep|000|000|0.382|0.356|
+|135-GoogleQ&A Inf-5Fold-Bert_base_unc warm best_la|000|000|0.381|0.357|
+|136-GoogleQ&A Inf-5Fold-Bert_base_unc best_last|000|000|0.370|0.345|
+|137-GoogleQ&A Inf-5Fold-Bert_base_unc best_last|000|000|0.372|0.356|
+|138-GoogleQ&A Inf-5Fold-Bert_base_unc last_epoch|000|000|0.384|0.363|
+|140-GoogleQ&A Train-3Fold-Bert_base_unc raw HuFace|0.478|0.387|0.380|0.352|
+|141-GoogleQ&A Train-3Fold-Bert_base_unc regression|0.496|0.369|000|000|
+|142-GoogleQ&A Train-3Fold-Bert_base_unc Hidden11|0.495|0.391|0.379|0.358|
+|143-GoogleQ&A Train-3Fold-Bert_base_unc Hidden10|0.493|0.387|0.377|0.356|
+|144-GoogleQ&A Train-3Fold-BERT_base_unc sum|0.484|0.390|0.383|0.356|
+|145-GoogleQ&A Train-3Fold-BERT_base_unc concat|0.518|0.392|0.383|0.359|
