@@ -155,3 +155,14 @@
 |143-GoogleQ&A Train-3Fold-Bert_base_unc Hidden10|0.493|0.387|0.377|0.356|
 |144-GoogleQ&A Train-3Fold-BERT_base_unc sum|0.484|0.390|0.383|0.356|
 |145-GoogleQ&A Train-3Fold-BERT_base_unc concat|0.518|0.392|0.383|0.359|
+|146-GoogleQ&A Train-3Fold-BERT_base_unc avg|0.530|0.391|0.379|0.358|
+|147-GoogleQ&A Train-3Fold-BERT_base_unc concat2|0.486|0.390|0.380|0.359|
+|148-GoogleQ&A Train-3Fold-BERT_base_unc QA3|0.496|0.396|0.391|0.362|
+|149-GoogleQ&A Train-3Fold-BERT_base_unc QA3 GPFold|0.478|0.388|0.390|0.363|
+|150-GoogleQ&A Train-3Fold-BERT_base_unc QA3 AdamW|0.493|0.397|0.390|0.363|
+|151-GoogleQ&A Inf-5Fold-DistilBert_base last_epoch|000|000|0.383|0.356|
+|152-GoogleQ&A Inf-5Fold-DistilBert_base best_epoch|000|000|0.367|0.354|
+|153-GoogleQ&A Inf-5Fold-DistilBert_base best_epoch|000|000|0.380|0.356|
+|154-GoogleQ&A Train-3Fold-BERT_base_cased QA3|0.499|0.391|0.377|0.359|
+|155-GoogleQ&A Inf-5Fold-DistilBert_base best_epoch|000|000|0.379|0.356|
+|157-GoogleQ&A Train-3Fold-BERT_base_unc QA|0.500|0.397|0.349|0.325|
