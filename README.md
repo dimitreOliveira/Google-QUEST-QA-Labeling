@@ -1,14 +1,17 @@
 ![](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/blob/master/Assets/banner.png)
 
-## About the repository
-{Competition abouts}
-
 ### Published Kaggle kernels:
+  - [Google QUEST - EDA and USE Baseline](https://www.kaggle.com/dimitreoliveira/google-quest-eda-and-use-baseline)
 
 ### What you will find
 - Documentation [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/tree/master/Documentation)
   - Project working cycle and effort, relevant content and insights [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/blob/master/Documentation/Planning.md)
 - Models [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/tree/master/Model%20backlog)
+  - Training [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/tree/master/Model%20backlog/Training)
+  - Inference [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/tree/master/Model%20backlog/Inference)
+- Dataset split [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/tree/master/Dataset%20split)
+- EDA [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/tree/master/EDA)
+- Scripts [[link]](https://github.com/dimitreOliveira/Google-QUEST-QA-Labeling/tree/master/Scripts)
 
 ### Google QUEST Q&A Labeling
 #### Improving automated understanding of complex question answer content
